@@ -12,3 +12,5 @@ All div element tags swapped to poreper CSS elements according to each sections'
 
 After making the necessary changes to the HTML and CSS codes, Horiseon's homepage has been SEO optimized and meets accessibility standards.
 Can be accessed at: https://tawhidk9.github.io/HW1-Code_refactor/
+
+<img src="Screenshot 2023-05-13 110920.png">
