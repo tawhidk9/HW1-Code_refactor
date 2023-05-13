@@ -2,27 +2,27 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
+} /*Default Global Settings to allow greater control of page*/
 
 body {
     background-color: #d9dcd6;
-}
+} /*Sets body background to above color */
 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-}
+} /*Sets padding,font style, background, and color of header and nav bar*/
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
-}
+} /*Makes Horiseon header logo 48px size*/
 
 .header h1 .seo {
     color: #d9dcd6;
-}
+} /*Specifically changes letters "seo" in h1 to color above*/
 
 .header nav {
     padding-top: 15px;
@@ -30,16 +30,16 @@ body {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
+} /*Sets position and font size/style of nav bar*/
 
 .header nav ul {
     list-style-type: none;
-}
+} /*Gets rid of any style elements from ul, namely bullet points*/
 
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
-}
+} /*Displays ul in a line and sets margins to space out each li*/
 
 a {
     color: #ffffff;
@@ -48,7 +48,7 @@ a {
 
 p {
     font-size: 16px;
-}
+} /*Font size for all text in paragraphs*/
 
 .hero {
     height: 800px;
@@ -57,23 +57,23 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-}
+} /*Inserts main background image into page and sets height,width*/
 
 .float-left {
     float: left;
     margin-right: 25px;
-}
+} /*Positions SEO and Social Media Marketing section on left side of page*/
 
 .float-right {
     float: right;
     margin-left: 25px;
-}
+} /*Positions Online Reputation Management section on left side of page*/
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-}
+} /*Sets parameters for .float-left and .float-right*/
 
 .benefits {
     margin-right: 20px;
@@ -84,55 +84,55 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
+} /*Sets styles for sidebar*/
 
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} /*Sets text color and margins for spacing*/
 
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} /*Sets text color and margins for spacing*/
 
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} /*Sets text color and margins for spacing*/
 
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} /*Aligns and puts margin on title of sidebar section*/
 
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} /*Aligns and puts margin on title of sidebar section*/
 
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} /*Aligns and puts margin on title of sidebar section*/
 
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} /*Sets margin and max width to icon image in sidebar*/
 
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} /*Sets margin and max width to icon image in sidebar*/
 
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} /*Sets margin and max width to icon image in sidebar*/
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -141,7 +141,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} /*Sets margins,padding,height,font,background color, and text color of this section*/
 
 .online-reputation-management {
     margin-bottom: 20px;
@@ -150,7 +150,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} /*Sets margins,padding,height,font,background color, and text color of this section*/
 
 .social-media-marketing {
     margin-bottom: 20px;
@@ -159,42 +159,42 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} /*Sets margins,padding,height,font,background color, and text color of this section*/
 
 .search-engine-optimization img {
     max-height: 200px;
-}
+} /*Sets max height for SEO section image*/
 
 .online-reputation-management img {
     max-height: 200px;
-}
+} /*Sets max height for online rep section image*/
 
 .social-media-marketing img {
     max-height: 200px;
-}
+} /*Sets max height for media marketing section image*/
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} /*Sets margin and font size of section title*/
 
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} /*Sets margin and font size of section title*/
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} /*Sets margin and font size of section title*/
 
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
+} /*Sets padding, font style, alignment, and sets clear to both*/
 
 .footer h2 {
     font-size: 20px;
-}
+} /*Sets footer font size*/
